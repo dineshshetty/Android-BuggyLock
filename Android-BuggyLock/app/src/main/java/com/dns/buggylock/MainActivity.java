@@ -33,7 +33,6 @@ public class MainActivity extends AppCompatActivity {
         disablePinlockButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 pinLockOperationOff();
-
             }
         });
 
@@ -72,7 +71,6 @@ public class MainActivity extends AppCompatActivity {
         LockManager<CustomPinActivity> lockManager = LockManager.getInstance();
         lockManager.getAppLock().disableAndRemoveConfiguration();
         StyleableToast.makeText(getApplicationContext(), "PinLock Disabled", R.style.redColor2).show();
-
     }
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
