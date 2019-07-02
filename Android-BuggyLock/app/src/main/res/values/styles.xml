@@ -12,4 +12,8 @@
         <item name="stColorBackground">#BDE4A7</item>
     </style>
 
+    <style name="redColor2">
+        <item name="stColorBackground">#BA3B46</item>
+    </style>
+
 </resources>

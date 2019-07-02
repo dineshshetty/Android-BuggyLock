@@ -40,3 +40,8 @@ repositories {
         // Alternative URL is 'https://dl.google.com/dl/android/maven2/'
     }
 }
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.0.0-beta01'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+}
